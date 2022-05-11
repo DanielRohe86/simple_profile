@@ -6,3 +6,18 @@ body {
     position: fixed;
     top: 0;
 }
+
+#minha_foto {
+    height: 350px;
+    width: 275px;
+}
+
+#licoes_aprendidas {
+    margin-top: 500px;
+}
+
+#licoes {
+    width: 100px;
+    height: 100px;
+    display: inline-block
+}
