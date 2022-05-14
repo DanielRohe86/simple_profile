@@ -5,6 +5,9 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  margin: 1px;
+  padding:1px;
+  border:1px solid blue;
 }
 
 #minha_foto {
@@ -20,6 +23,10 @@ body {
   width: 100px;
   height: 100px;
   display: inline-block;
+}
+
+#articles {
+  width: 500px;
 }
 
 footer {
