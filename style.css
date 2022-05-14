@@ -28,22 +28,24 @@ nav {
   display:inline-block;
 }
 
-#aprendizados{
+#aprendizados {
   height: 45%;
   width: 45%;
   background-color: green;
   display:inline-block;
 }
 
-
-#container_a{
-  background-color: aqua;
-  
+ul, ol {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#container_b{
+
+#container_a {
+  background-color: aqua;
+}
+
+#container_b {
   background-color: red;
-  
 }
 
 h2 {
@@ -53,11 +55,13 @@ h2 {
 }
 
 #articles {
-    width: 45%
+  width: 45%
 }
 
-footer{
+main {
+font-family: monospace;
+}
+
+footer {
   margin:10px
 }
-
-
