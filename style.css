@@ -7,12 +7,13 @@ body {
   top: 0;
   margin: 1px;
   padding:1px;
-  border:1px solid blue;
+  border:1px solid green;
 }
 
 #titulo {
   font-size: medium;
   font-family: monospace;
+  color: greenyellow;
 }
 
 #minha_foto {
@@ -32,6 +33,11 @@ body {
 
 #articles {
   width: 500px;
+}
+
+article {
+  font-family: monospace;
+  line-height: 5mm;
 }
 
 footer {
