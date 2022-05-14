@@ -1,11 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
-  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
   position: fixed;
   top: 0;
 }
@@ -13,19 +10,13 @@ body {
 #minha_foto {
   height: 350px;
   width: 275px;
-  height: 350px;
-  width: 275px;
 }
 
 #licoes_aprendidas {
   margin-top: 500px;
-  margin-top: 500px;
 }
 
 #licoes {
-  width: 100px;
-  height: 100px;
-  display: inline-block
   width: 100px;
   height: 100px;
   display: inline-block;
