@@ -1,23 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-  position: fixed;
-  top: 0;
+header {
+  margin: 10px;
 }
 
 #minha_foto {
   height: 350px;
-  width: 275px;
+  width: 285px;
 }
 
-#licoes_aprendidas {
-  margin-top: 500px;
+nav {
+  margin-left: 42px;
 }
 
-#licoes {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
+#content {
+  height:1200px;
+  width: 500px;
+  background-color: green;
+  display:inline-block;
 }
+
+#aprendizados{
+  height: 45%;
+  width: 45%;
+  background-color: green;
+  display:inline-block;
+}
+
+
+#container_a{
+  background-color: aqua;
+  
+}
+
+#container_b{
+  background-color: red;
+  
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 20px;
+}
+
+#articles {
+    width: 45%
+}
+
+footer{
+  margin:10px
+}
+
+
