@@ -21,3 +21,11 @@ body {
   height: 100px;
   display: inline-block;
 }
+
+footer {
+  margin-top:10px;
+}
+table {
+  margin-top:20px;
+}
+
