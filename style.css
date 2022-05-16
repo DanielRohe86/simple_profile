@@ -1,3 +1,10 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -21,29 +28,40 @@ body {
   width: 275px;
 }
 
-#licoes_aprendidas {
-  margin-top: 500px;
+#lists {
+  margin-top: 450px;
+  border: 1px solid black;
+  width: fit-content;
 }
 
-#licoes {
-  width: 100px;
-  height: 100px;
+.lado-direito,.lado-esquerdo {
   display: inline-block;
-}
-
-#articles {
-  width: 500px;
+  background-color: brown;
+  list-style-position: inside;
+  padding: 8px;
+  margin-left: 8px;
 }
 
 article {
+  width: 500px;
+  margin: 10px;
+  font-family: monospace;
+  line-height: 5mm;
+}
+
+aside {
+  width: 500px;
+  margin: 10px;
   font-family: monospace;
   line-height: 5mm;
 }
 
 footer {
-  margin-top:10px;
+  margin-top: 10px;
+  width: 500px;
 }
+
 table {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
