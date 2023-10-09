@@ -1,406 +1,399 @@
-### Termos e acordos
+### Terms and agreements
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+By starting this project, you agree to the guidelines of the Trybe Code of Ethics and Conduct and the Student Handbook.
 
-# Boas vindas ao repositório do projeto Lições Aprendidas!
+# Welcome to the Lessons Learned project repository!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo e, se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+You already use GitHub daily to develop exercises, right? Now, to develop the projects, you must follow the instructions below. Pay attention to each step and, if you have any questions, send them to us via _Slack_! #vqv 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
-
-## SUMÁRIO
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Avaliador Automático](#avaliador-automático)
-- [Requisitos](#requisitos)
-  - [Dicas](#dicas)
-  - [Lista de requisitos](#lista-de-requisitos)
-    - [1. Adicione uma cor de fundo específica para a página](#1-adicione-uma-cor-de-fundo-específica-para-a-página)
-    - [2. Adicione uma barra superior com um título](#2-adicione-uma-barra-superior-com-um-título)
-    - [3. Adicione uma foto sua à página](#3-adicione-uma-foto-sua-à-página)
-    - [4. Adicione uma lista de lições aprendidas à página](#4-adicione-uma-lista-de-lições-aprendidas-à-página)
-    - [5. Crie uma lista de lições que ainda deseja aprender para a página](#5-crie-uma-lista-de-lições-que-ainda-deseja-aprender-para-a-página)
-    - [6. Adicione um rodapé para a página](#6-adicione-um-rodapé-para-a-página)
-    - [7. Insira pelo menos um link externo na página](#7-insira-pelo-menos-um-link-externo-na-página)
-    - [8. Crie um artigo sobre seu aprendizado](#8-crie-um-artigo-sobre-seu-aprendizado)
-    - [9. Crie uma seção que conta uma passagem sobre seu aprendizado](#9-crie-uma-seção-que-conta-uma-passagem-sobre-seu-aprendizado)
-    - [10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles](#10-aplique-elementos-html-de-acordo-com-o-sentido-e-propósito-de-cada-um-deles)
-  - [Bônus](#bônus)
-    - [11. Teste a semântica da sua página está aprovada pelo site CodeSniffer](#11-teste-a-semântica-da-sua-página-está-aprovada-pelo-site-codesniffer)
-    - [12. Adicione uma tabela à página](#12-adicione-uma-tabela-à-página)
-    - [13. Utilize o Box model](#13-utilize-o-box-model)
-    - [14. Altere atributos relacionados as fontes](#14-altere-atributos-relacionados-as-fontes)
-    - [15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro](#15-posicione-o-seu-artigo-e-a-seção-sobre-aprendizados-um-ao-lado-do-outro)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
-
-
-## Habilidades
-
-Neste projeto, você será capaz de:
-
-* Utilizar _HTML_ para construir páginas WEB.
-* Utilizar _HTML_ semântico para tornar sua página mais acessível e melhor ranqueada.
-* Utilizar _CSS_ para adicionar estilo e posicionar elementos.
+Here you will find details on how to structure the development of your project from this repository, using a specific branch and a _Pull Request_ to place your codes.
 
 ---
 
-## Entregáveis
+## SUMMARY
 
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
+- [Skills](#skills)
+- [Deliverables](#deliverables)
+   - [What should be developed](#what-should-be-developed)
+   - [Development](#development)
+   - [Delivery date](#delivery-date)
+- [Instructions for submitting your project](#instructions-for-delivering-your-project)
+   - [Before starting to develop](#before-starting-to-develop)
+   - [During development](#during-development)
+- [How to develop](#how-to-develop)
+   - [Linter](#linter)
+   - [Automatic Evaluator](#automatic-evaluator)
+- [Requirements](#requirements)
+   - [Tips](#tips)
+   - [List of requirements](#list-of-requirements)
+     - [1. Add a specific background color to the page](#1-add-a-specific-background-color-to-the-page)
+     - [two. Add a topbar with a title](#2-add-a-topbar-with-a-title)
+     - [3. Add a photo of yourself to the page](#3-add-a-photo-of-yourself-to-page)
+     - [4. Add a list of lessons learned to the page](#4-add-a-list-of-lessons-learned-to-page)
+     - [5. Create a list of lessons you still want to learn for the page](#5-create-a-list-of-lessons-you-still-want-to-learn-for-the-page)
+     - [6. Add a footer to the page](#6-add-a-footer-to-the-page)
+     - [7. Insert at least one external link on the page](#7-insert-at-least-one-external-link-on-page)
+     - [8. Create an article about your learning](#8-create-an-article-about-your-learning)
+     - [9. Create a section that tells a passage about your learning](#9-create-a-section-that-tells-a-passage-about-your-learning)
+     - [10. Apply HTML elements according to the meaning and purpose of each of them](#10-apply-html-elements-according-to-the-sense-and-purpose-of-each-of-them)
+   - [Bonus](#bonus)
+     - [11. Test the semantics of your page if it is approved by the CodeSniffer website](#11-test-the-semantics-of-your-page-is-approved-by-the-codesniffer-site)
+     - [12. Add a table to the page](#12-add-a-table-to-page)
+     - [13. Use the Box model](#13-utilize-o-box-model)
+     - [14. Change attributes related to fonts](#14-change-attributes-related-to-fonts)
+     - [15. Position your article and the learnings section next to each other](#15-position-your-article-and-the-learnings-section-next-to-each-other)
+- [After finishing development](#after-finishing-development)
+- [Reviewing a pull request](#reviewing-a-pull-request)
+- [Final Notices](#final-notices)
 
-Lembre-se que você pode consultar nosso conteúdo sobre
-[Git & GitHub](https://app.betrybe.com/course/fundamentals/git-github-e-internet/git-github-o-que-e-e-para-que-serve/82dcab41-249a-4738-8920-f0eb2cb91d1c/dinamica-de-controle-de-versao/4cbb1980-92f0-4663-9121-dbc0f8d207a7?use_case=calendar) sempre que precisar!
 
----
+## Skills
 
-## O que deverá ser desenvolvido
+In this project, you will be able to:
 
-Você vai desenvolver um site que contenha uma série de informações sobre o que você aprendeu aqui na Trybe ao longo dos últimos três blocos. Seu site deverá estar com elementos posicionados e estilizados e além disto, deverá conter semântica apropriada para que seja acessível e melhor ranqueado.
-
-💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar todas as pessoas!
-
-![exemplo](./exemplo.png)
-
-## Desenvolvimento
-
-Você deve desenvolver uma página HTML estilizada com CSS.
-
-Através desta aplicação, será possível realizar a construção de código HTML, posicionamento e estilização CSS.
-
-## Data de Entrega
-
-  - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `18/05/2022 14:00`.
-
----
-
-## Instruções para  entregar seu projeto
-
-### Antes de começar a desenvolver
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-023-b-project-lessons-learned.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-023-b-project-lessons-learned`
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * npm install
-
-2. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
-    * Exemplo: `git checkout -b maria-soares-lessons-learned`
-
-3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
-  * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-023-b-project-lessons-learned**_
-  * Crie os arquivos index.html e style.css
-    * Exemplo: `touch index.html style.css`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-023-b-project-lessons-learned/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-023-b-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
-
---- 
-
-### Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+* Use _HTML_ to build WEB pages.
+* Use semantic _HTML_ to make your page more accessible and better ranked.
+* Use _CSS_ to add style and position elements.
 
 ---
 
-## Como desenvolver
+## Deliverables
+
+To deliver your project you must create a Pull Request in this repository.
+
+Remember that you can consult our content on
+[Git & GitHub](https://app.betrybe.com/course/fundamentals/git-github-e-internet/git-github-o-que-e-e-para-que-serve/82dcab41-249a-4738- 8920-f0eb2cb91d1c/dinamica-de-controle-de-version/4cbb1980-92f0-4663-9121-dbc0f8d207a7?use_case=calendar) whenever you need it!
+
+---
+
+## What should be developed
+
+You will develop a website that contains a series of information about what you have learned here at Trybe over the last three blocks. Your website must have positioned and stylized elements and, in addition, it must contain appropriate semantics so that it is accessible and better ranked.
+
+
+## Development
+
+You must develop an HTML page styled with CSS.
+
+Through this application, it will be possible to perform HTML code construction, positioning and CSS styling.
+
+## Delivery date
+
+   - It will be `1` day of the project.
+   - Delivery date for final evaluation of the project: `18/05/2022 14:00`.
+
+---
+
+## Instructions for submitting your project
+
+### Before you start developing
+
+1. Clone the repository
+   * `git clone git@github.com:tryber/sd-023-b-project-lessons-learned.git`.
+   * Go to the repository folder you just cloned:
+     * `cd sd-023-b-project-lessons-learned`
+
+2. Install dependencies and initialize the project
+   * Install dependencies:
+     * npm install
+
+2. Create a branch from the `master` branch
+   * Check that you are on the `master` branch
+     * Example: `git branch`
+   * If not, switch to the `master` branch
+     * Example: `git checkout master`
+   * Now, create a branch where you will store your project's commits
+     * You must create a branch in the following format: `firstname-lastname-project-name`
+     * Example: `git checkout -b maria-soares-lessons-learned`
+
+3. Create the files you will need to develop in the root of the project:
+   * Verify that you are at the root of the project
+     * Example: `pwd` -> the return will be something like _/Users/maria/code/**sd-023-b-project-lessons-learned**_
+   * Create index.html and style.css files
+     * Example: `touch index.html style.css`
+
+4. Add changes to Git _stage_ and `commit`
+   * Check that the changes are not yet in _stage_
+     * Example: `git status` (new files should appear listed in red)
+   * Add the new file to Git _stage_
+       * Example:
+         * `git add .` (adding all changes - _that were in red_ - to the Git stage)
+         * `git status` (files should appear listed in green)
+   * Make the initial `commit`
+       * Example:
+         * `git commit -m 'starting the project. LET'S GO WITH EVERYTHING :rocket:'` (making the first commit)
+         * `git status` (a message like _nothing to commit_ should appear)
+
+5. Add your branch with the new `commit` to the remote repository
+   * Using the previous example: `git push -u origin maria-soares-lessons-learned`
+
+6. Create a new `Pull Request` _(PR)_
+   * Go to the [GitHub repository](https://github.com/tryber/sd-023-b-project-lessons-learned/pulls) _Pull Requests_ page
+   * Click on the green _"New pull request"_ button
+   * Click on the _"Compare"_ checkbox and choose your branch **carefully**
+   * Click the green _"Create pull request"_ button
+   * Add a description for the _Pull Request_, a clear title that identifies it, and click the green _"Create pull request"_ button
+   * **Don't worry about filling out anything else for now!**
+   * Go back to the [repository's _Pull Requests_ page](https://github.com/tryber/sd-023-b-project-lessons-learned/pulls) and check that your _Pull Request_ is created
+
+---
+
+### During development
+
+* Commit changes you make to the code regularly
+
+* Remember to always after one (or a few) `commits` update the remote repository
+
+* The commands you will use most frequently are:
+   1. `git status` _(to check what is in red - out of stage - and what is in green - on stage)_
+   2. `git add` _(to add files to the Git stage)_
+   3. `git commit` _(to create a commit with the files that are in the Git stage)_
+   5. `git push -u branch-name` _(to push the commit to the remote repository the first time you `push` a new branch)_
+   4. `git push` _(to push the commit to the remote repository after the previous step)_
+
+---
+
+## How to develop
 
 ### Linter
 
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+To guarantee the quality of your code in order to make it more readable, easier to maintain and following good development practices, we use the `ESLint` linter in this project. To run the linter locally in your project, run the command below:
 
 ```bash
 npm run lint:styles
 ```
 
-⚠ **NESTE PROJETO O STYLELINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
+⚠ **IN THIS PROJECT STYLELINT WILL NOT BE EVALUATED. YOU CAN RUN THE TEST LOCALLY AND MAKE CORRECTIONS IF YOU WISH!** ⚠
 
-Após clonar o projeto, você deverá criar os arquivos **index.html** e **style.css** que conterão seu código HTML e CSS, respectivamente. Observe que seus arquivos **devem** possuir estes nomes para que seu projeto seja testado corretamente pelo avaliador automático.
+After cloning the project, you must create the **index.html** and **style.css** files that will contain your HTML and CSS code, respectively. Note that your files **must** have these names for your project to be tested correctly by the automatic evaluator.
 
-Você é livre para adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+You are free to add other files if necessary. If you have any questions, contact the Instructor who accompanies you.
 
-Lembre-se que sua página deverá conter semântica adequada e para isso verifique se sua página está aprovada no [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/).
+Remember that your page must contain adequate semantics and to do this, check if your page is approved by [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/).
 
 
-### Avaliador automático
+### Automatic evaluator
 
-* Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `1366 x 768` (1366 pixels de largura por 768 pixels de altura).
+* Your project requirements are automatically evaluated, using a screen resolution of `1366 x 768` (1366 pixels wide by 768 pixels high).
 
-* ⚠️ Recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução. ⚠️
+* ⚠️ It is recommended to develop your project using the same resolution, by installing [this plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) from `Chrome` to make it easier the resolution setting. ⚠️
 
-* Atente-se para o tamanho das imagens que você utilizará neste projeto. **Não utilize imagens com um tamanho maior que _500Kb_.**
+* Pay attention to the size of the images you will use in this project. **Do not use images larger than _500Kb_.**
 
-* ⚠️ Utilize uma ferramenta [como esta](https://picresize.com/pt) para redimensionar as imagens. ⚠️
+* ⚠️ Use a tool [like this](https://picresize.com/pt) to resize images. ⚠️
 
-* Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
+* If the evaluation fails with an error message similar to `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, the images you are using are probably too large. Try resizing them to a smaller size.
 
-Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
+To check whether your evaluation was computed successfully, you can check the **evaluator execution details**.
 
-* Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
+* On your _Pull Request_ page, above the "merge button", search for _**"Evaluator job"**_ and click on the _**"Details"**_ link;
 
-* Na página que se abrirá, procure pela linha _**"Cypress evaluator step"**_ e clique nela;
+* On the page that will open, look for the line _**"Cypress evaluator step"**_ and click on it;
 
-* Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
+* Analyze the results from the message _**"(Run Starting)"**_;
 
-* Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure as pessoas instrutoras.
+* If you have questions, consult [this video](https://vimeo.com/420861252) or look for the instructors.
 
-Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
+To run the automatic evaluator locally in your project, run one of the commands below:
 
 ```bash
 npm test
 ```
 
-***ou***
+***or***
 
 ```bash
 npm run cypress:open
 ```
 
-Após executar o comando acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (*project.spec.js*, ou *bonus.spec.js*), ou para executar todos os testes clique em *Run 2 integration specs*
+After executing the command above, a browser window will open and then just click on the name of the test file you want to run (*project.spec.js*, or *bonus.spec.js*), or to run all tests click on *Run 2 integration specs*
 
-Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
+You are free to add new behaviors to your project, whether in the form of improvements to proposed requirements or new functionalities, **as long as such additional behaviors do not conflict with the proposed requirements**.
 
-* Você pode fazer mais do que for pedido, mas nunca menos.
+* You can do more than asked, but never less.
 
-* **Nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
-
----
-
-## Requisitos
-
-### Dicas
-
-Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/lessons-learned`.
-
-### Lista de requisitos
-
-⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
+* **Nothing beyond what is requested in the requirements will be evaluated**. _This is an opportunity for you to exercise your creativity and experiment with the knowledge you have acquired._
 
 ---
 
-### 👀Observações importantes:
+## Requirements
 
-* Lembrem-se que como pessoas desenvolvedoras devemos fazer pesquisas e garimpar resultados para auxiliar no entendimento do assunto. Assim, para solucionar os requisitos do projeto é inevitável e estimulado que pesquisas sejam feitas nas mais variadas fontes (course, vídeos do course, google, youtube, etc) sempre tomando cuidado para utilizar fontes "confiáveis" nas pesquisas da Internet, como por exemplo:
-  
-  * [Javascript.com](http://javascript.com/)
-  
-  * [W3Schools](https://www.w3schools.com/js/default.asp)
-  
-  * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-  
-  * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-  
+### Tips
 
-### 1. Adicione uma cor de fundo específica para a página
+To put your page on [GitHub Pages](https://pages.github.com/), there is no need to remove the content that is already there, you can just add this new page. To do this, all content of this project must be placed in a folder `/projetos/lessons-learned`.
 
-Possuir cor de fundo: rgb(253, 251, 251)
+### List of requirements
 
-**O que será verificado:**
+⚠️ Read them carefully and follow exactly what is asked. In particular, **pay attention to the names of _ids_ that some elements of your project must have**. ⚠️
 
-- Possuir cor de fundo: rgb(253, 251, 251)
-
-### 2. Adicione uma barra superior com um título
-
-A barra deve possuir o ID "cabecalho" e deve ser fixa no topo da página com a propriedade top tendo **0**. O título deve estar dentro da barra e ser um elemento **h1** com ID "titulo".
-
-**O que será verificado:**
-
-- A barra possui o ID "cabecalho"
-- A barra superior deve ser fixa no topo da página, leia mais sobre ela [aqui](https://www.w3schools.com/css/css_positioning.asp).
-- A barra deve ter a propriedade **top** tendo o valor `0`
-- O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag "h1"
-
-### 3. Adicione uma foto sua à página
-
-A foto deve ser inserida utilizando uma tag **img** com o ID "minha_foto".
-
-**O que será verificado:**
-
-- A foto deve ser inserida utilizando uma tag img com o ID "minha_foto"
-
-### 4. Adicione uma lista de lições aprendidas à página
-
-A lista deve possuir **10** itens, ser numerada e possuir o ID "licoes_aprendidas".
-
-**O que será verificado:**
-
-- A lista deve ser numerada e possuir o ID "licoes_aprendidas"
-- A lista deve possuir 10 itens
-
-### 5. Crie uma lista de lições que ainda deseja aprender para a página
-
-A lista deve possuir **10** itens, não ser numerada e possuir o ID "licoes_a_aprender".
-
-**O que será verificado:**
-
-- A lista não deve ser numerada e deve possuir o ID "licoes_a_aprender"
-- A lista deve possuir 10 itens
-
-### 6. Adicione um rodapé para a página
-
-O rodapé deve utilizar a tag **footer** e possuir o ID "rodape".
-
-**O que será verificado:**
-
-- O rodapé deve possuir o ID "rodape"
-
-### 7. Insira pelo menos um link externo na página
-
-A configuração desse link deve ser feita para abrir em uma nova aba do navegador
-
-**O que será verificado:**
-
-- A configuração desse link deve ser feita para abrir em uma nova aba do navegador
-
-### 8. Crie um artigo sobre seu aprendizado
-
-O artigo deverá possuir mais de 300 **caracteres** e menos de 600, além disto deve possuir a tag **article**.
-
-**O que será verificado:**
-
-- A `tag` `article` devem ser utilizadas
-- O artigo deve ter mais de 300 caracteres e menos de 600
-
-### 9. Crie uma seção que conta uma passagem sobre seu aprendizado
-
-A seção deverá possuir mais de 100 **caracteres** e menos de 300, além disto deve possuir a tag **aside**.
-
-**O que será verificado:**
-
-- A `tag` `aside` deve ser utilizada
-- A seção deve ter mais que 100 caracteres e menos que 300
-
-### 10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
-
-Para tornar o seu site mais acessível e melhorar seu ranqueamento em mecanismos de busca na Web, sua página deve conter os seguintes elementos: article, header, nav, section, aside e footer.
-
-**O que será verificado:**
-
-- Validar se a página possui um elemento "article"
-- Validar se a página possui um elemento "header"
-- Validar se a página possui um elemento "nav"
-- Validar se a página possui um elemento "section"
-- Validar se a página possui um elemento "aside"
-- Validar se a página possui um elemento "footer"
-
-### 11. Teste a semântica da sua página está aprovada pelo site CodeSniffer
-
-Teste a semântica da sua página está aprovada pelo site CodeSniffer
-
-**O que será verificado:**
-
-- Seu site deve passar sem problemas na verificação de semântica do site CodeSniffer
-
-### BÔNUS
-
-### 12. Adicione uma tabela à página
-
-**O que será verificado:**
-
-- A página deve possuir uma tabela
-
-### 13. Utilize o Box model
-
-Altere **margin**, **padding** e **border** dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes.
-
-**O que será verificado:**
-
-- Altere `margin`, `padding` e `border` dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes
-
-### 14. Altere atributos relacionados as fontes
-Modifique o estilo da sua tipografia alterando o tamanho de letra, a cor, o espaçamento entre as linhas e a **font-family**.
-
-**O que será verificado:**
-
-- Altere o tamanho da letra
-- Altere a cor da letra
-- Altere o espaçamento entre as linhas
-- Altere o `font-family`
-
-### 15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro
-
-Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao elemento posicionado no lado direito a classe "lado-direito"
-
-**O que será verificado:**
-
-- Utilizar a classe "lado-esquerdo"
-- Utilizar a classe "lado-direito"
-- Verificar se os elementos com as classes lado-direito e lado-esquerdo estão posicionados corretamente
+Failure to comply with a requirement, in whole or in part, will impact your assessment.
 
 ---
 
-### (OPCIONAL) Depois de terminar o desenvolvimento
+### 👀Important notes:
 
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-x`
+* Remember that as developers we must do research and mine results to help understand the subject. Therefore, to solve the project requirements, it is inevitable and encouraged that research be carried out in a wide variety of sources (course, course videos, google, youtube, etc.) always taking care to use "reliable" sources in Internet searches, such as :
+  
+   * [Javascript.com](http://javascript.com/)
+  
+   * [W3Schools](https://www.w3schools.com/js/default.asp)
+  
+   * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  
+   * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
+  
 
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
+### 1. Add a specific background color to the page
+
+Have background color: rgb(253, 251, 251)
+
+**What will be checked:**
+
+- Have background color: rgb(253, 251, 251)
+
+### 2. Add a top bar with a title
+
+The bar must have the ID "header" and must be fixed at the top of the page with the top property having **0**. The title must be inside the bar and be an **h1** element with ID "title".
+
+**What will be checked:**
+
+- The bar has the ID "header"
+- The top bar must be fixed at the top of the page, read more about it [here](https://www.w3schools.com/css/css_positioning.asp).
+- The bar must have the **top** property having the value `0`
+- The title must be inside the bar and have the ID "title", in addition to being an "h1" tag
+
+### 3. Add a photo of yourself to the page
+
+The photo must be inserted using an **img** tag with the ID "minha_foto".
+
+**What will be checked:**
+
+- The photo must be inserted using an img tag with the ID "minha_foto"
+
+### 4. Add a list of lessons learned to the page
+
+The list must have **10** items, be numbered and have the ID "licoes_aprendidas".
+
+**What will be checked:**
+
+- The list must be numbered and have the ID "licoes_aprendidas"
+- The list must have 10 items
+
+### 5. Create a list of lessons you still want to learn for the page
+
+The list must have **10** items, not be numbered and have the ID "licoes_a_aprender".
+
+**What will be checked:**
+
+- The list must not be numbered and must have the ID "licoes_a_aprender"
+- The list must have 10 items
+
+### 6. Add a footer to the page
+
+The footer must use the **footer** tag and have the ID "footer".
+
+**What will be checked:**
+
+- The footer must have the ID "footer"
+
+### 7. Insert at least one external link on the page
+
+This link must be configured to open in a new browser tab
+
+### 8. Create an article about your learning
+
+The article must have more than 300 **characters** and less than 600, and must also have the **article** tag.
+
+**What will be checked:**
+
+- The `article` tag must be used
+- The article must have more than 300 characters and less than 600
+
+### 9. Create a section that tells a passage about your learning
+
+The section must have more than 100 **characters** and less than 300, in addition it must have the **aside** tag.
+
+**What will be checked:**
+
+- The `aside` tag must be used
+- The section must be more than 100 characters and less than 300
+
+### 10. Apply HTML elements according to the meaning and purpose of each one
+
+To make your website more accessible and improve its ranking in web search engines, your page must contain the following elements: article, header, nav, section, aside and footer.
+
+**What will be checked:**
+
+- Validate if the page has an "article" element
+- Validate if the page has a "header" element
+- Validate if the page has a "nav" element
+- Validate if the page has a "section" element
+- Validate if the page has an "aside" element
+- Validate if the page has a "footer" element
+
+### 11. Test the semantics of your page is approved by the CodeSniffer website
+
+Test the semantics of your page is approved by the CodeSniffer website
+
+**What will be checked:**
+
+- Your website should pass the CodeSniffer website semantic check without any problems
+
+### BONUS
+
+### 12. Add a table to the page
+
+**What will be checked:**
+
+- The page must have a table
+
+### 13. Use the Box model
+
+Change **margin**, **padding** and **border** of elements to see, in practice, how these attributes influence and improve the visualization of components.
+
+**What will be checked:**
+
+- Change the `margin`, `padding` and `border` of the elements to see, in practice, how these attributes influence and improve the visualization of the components
+
+### 14. Change font-related attributes
+Modify the style of your typography by changing the font size, color, line spacing and **font-family**.
+
+**What will be checked:**
+
+- Change font size
+- Change font color
+- Change the spacing between lines
+- Change the `font-family`
+
+### 15. Position your article and learnings section next to each other
+
+Add the class "left-side" to the element positioned on the left side and the class "right-side" to the element positioned on the right side
+
+**What will be checked:**
+
+- Use the "left-side" class
+- Use the "right-side" class
+- Check if elements with right-side and left-side classes are positioned correctly
 
 ---
 
-## Avisos finais
+### (OPTIONAL) After finishing development
 
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
+* Go to the **YOUR** _Pull Request_ page, add the _"code-review"_ label and tag your colleagues
+   * In the menu on the right, click on the _link_ **"Labels"** and choose the _label_ **code-review**
+   * In the menu on the right, click on the _link_ **"Assignees"** and choose **your username**
+   * In the menu on the right, click on the _link_ **"Reviewers"** and type `students`, select the team `tryber/students-sd-x`
 
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
+If there are still any questions about how to deliver your project, [here is an explanatory video](https://vimeo.com/362189205).
 
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. 😉
+---
+
+## Final notices
+
+When finalizing and submitting the project, don't forget to rate your experience by filling out the form. It takes less than 3 minutes!
+
+Link: [PROJECT EVALUATION FORM](https://be-trybe.typeform.com/to/ZTeR4IbH)
+
+The automatic evaluator does not necessarily evaluate your project in the order that the requirements appear in the readme. This is to make the evaluation process faster. 😉
 
 ---
