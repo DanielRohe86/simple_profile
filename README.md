@@ -1,7 +1,3 @@
-### Terms and agreements
-
-By starting this project, you agree to the guidelines of the Trybe Code of Ethics and Conduct and the Student Handbook.
-
 # Welcome to the Lessons Learned project repository!
 
 You already use GitHub daily to develop exercises, right? Now, to develop the projects, you must follow the instructions below. Pay attention to each step and, if you have any questions, send them to us via _Slack_! #vqv 🚀
